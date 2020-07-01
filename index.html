@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section id="section">
+        <h1>Welcome to our Registration Portal</h1>
+        <div class="container">
+            <h2>Kindly fill in your details appropriately</h2>
+            <form onsubmit="approved(event)" action="login.html" id="myform">
+                <div class="item1">
+                    <label>Last Name</label><br/><input onfocusout = "lastName ()" type="text" placeholder="Last Name" id="last-name"><img id="last-name-img1" src="Icon/exclamation-32.png"><img id="last-name-img2" src="Icon/gfqqvlsrbs29fq6ufjijbc3sn6.png"><br/><span id="last-name-error">field must not be empty</span><br/><br/>
+                    <label>First Name</label><br/> <input onfocusout = "firstName ()" type="text" placeholder="First Name" id="first-name"><img class="img1" id="first-name-img1" src="Icon/exclamation-32.png"><img class="img2" id="first-name-img2" src="Icon/gfqqvlsrbs29fq6ufjijbc3sn6.png"><br/><span id="first-name-error">field must not be empty</span><br/><br/>
+                    <label>Middle Name</label><br/> <input onfocusout = "middleName ()" type="text" placeholder="Middle Name" id="middle-name"><img class="img1" id="middle-name-img1" src="Icon/exclamation-32.png"><img class="img2" id="middle-name-img2" src="Icon/gfqqvlsrbs29fq6ufjijbc3sn6.png"><br/><span id="middle-name-error">field must not be empty</span><br/><br/>
+                </div>
+                <div class="item2">
+                    <label for="password">Password</label> <br/><input onfocusout = "PAssword ()" type="password" placeholder="password" name="Password" id="password"><img id="password-img1" src="Icon/exclamation-32.png"><img id="password-img2" src="Icon/gfqqvlsrbs29fq6ufjijbc3sn6.png"><br/><span id="password-error">field must be empty</span><br/><br/>
+                    <label for="confirmPassword">Confirm Password</label> <br/><input onfocusout = "confirmPassword ()" type="password" placeholder="Confirm Password" name="Confirm Password" id="confirm-password"><img id="confirm-password-img1" src="Icon/exclamation-32.png"><img id="confirm-password-img2" src="Icon/gfqqvlsrbs29fq6ufjijbc3sn6.png"><br/><span id="confirm-password-error">field must be empty</span><br/><br/>
+                    <button id="submit">Submit</button>
+                </div>
+                <div class="item3">
+                    <label>Email</label><br/> <input onfocusout = "EMail ()" type="email" placeholder="email" id="email"><img class="img1" id="email-img1" src="Icon/exclamation-32.png"><img class="img2" id="email-img2" src="Icon/gfqqvlsrbs29fq6ufjijbc3sn6.png"><br/><span id="email-error">field must not be empty</span><br/><br/>
+                    <label>Age</label> <br/><input onfocusout = "AGe ()" type="text" placeholder="age" id="age"><img class="img1" id="age-img1" src="Icon/exclamation-32.png"><img class="img2" id="age-img2" src="Icon/gfqqvlsrbs29fq6ufjijbc3sn6.png"><br/><span id="age-error">field must not be empty</span><br/><br/>
+                    <label>Phone</label> <br/><input onfocusout = "PHone ()" type="text" placeholder="phone" id="phone"><img class="img1" id="phone-img1" src="Icon/exclamation-32.png"><img class="img2" id="phone-img2" src="Icon/gfqqvlsrbs29fq6ufjijbc3sn6.png"><br/><span id="phone-error">field must not be empty</span><br/><br/>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
